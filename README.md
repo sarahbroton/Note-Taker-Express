@@ -26,10 +26,14 @@ If your README is long, add a table of contents to make it easy for users to fin
 ## Technologies Used
 1.  Express.js
 2.  Heroku
-3. GitHub
-4. VSC (Visual Studio code)
-5. Adding badges: licenses
-6. 
+3.  GitHub
+4.  VSC (Visual Studio code)
+5.  Adding badges: licenses
+6.  Bootstrap
+7.  Javascript
+8.  HTML5
+9.  CSS
+10.  
 ## Installation
 
 What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.

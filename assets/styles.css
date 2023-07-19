@@ -7,6 +7,7 @@ body {
 
 .save-note {
   display: none;
+ 
 }
 
 .icons i {
@@ -14,7 +15,9 @@ body {
   margin-right: 15px;
   font-size: 1.5rem;
   cursor: pointer;
+ 
 }
+
 
 .note-textarea,
 .note-title {
@@ -22,18 +25,22 @@ body {
   width: 100%;
   outline: none;
   border: none;
+  
 }
 
 .note-textarea {
   resize: none;
   height: calc(100% - 63px);
   padding-top: 15px;
+  
+  
 }
 
 .note-title {
   height: 50px;
   margin-top: 13px;
   font-size: 3rem;
+
 }
 
 .note-title:read-only,
@@ -46,6 +53,7 @@ body {
   border-bottom: none;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
+ 
 }
 
 .list-container {
@@ -58,6 +66,7 @@ body {
   border-top: none;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
+ 
 }
 
 .list-item-title {
@@ -76,3 +85,7 @@ body {
   padding: 20px;
   cursor: pointer;
 }
+
+/* .col-8 {
+  padding-top: 30px; 
+} */
