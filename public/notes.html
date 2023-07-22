@@ -10,7 +10,7 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
     integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
-  <link rel="stylesheet" href="./assets/styles.css"/>
+  <link rel="stylesheet" href="./assets/styles.css" />
 </head>
 
 <body>
@@ -26,22 +26,22 @@
   </nav>
   <div class="container-fluid">
     <div class="row">
+      <!-- note title -->
       <div class="col-4 list-container">
+        <input class="note-title" placeholder="Note Title" maxlength="28" type="text" />
         <div class="card">
+          
           <ul class="list-group"></ul>
         </div>
       </div>
-      <!-- note title -->
-      <!-- <div class="row align-items-start"> -->
-        <div class="col-8">
-          <input class="note-title" placeholder="Note Title" maxlength="28" type="text" />
-          <!-- note text -->
-          <textarea class="note-textarea" placeholder="Note Text"></textarea>
-        </div>
+      <div class="col-8">
+        <!-- note text -->
+        <textarea class="note-textarea" placeholder="Note Text"></textarea>
       </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="/assets/index.js"></script>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="/assets/index.js"></script>
 </body>
 
 </html>
